@@ -1,5 +1,5 @@
 # ner-dataset-modified-dee
-Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset
+<b>Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset</b>
 
 The objective of the project: to create NER dataset that automatically labeled
 The dataset can be used to create NER for Indonesian language
