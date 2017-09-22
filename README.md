@@ -19,17 +19,17 @@ We provide three version of dataset as we explain on the paper:
 3. dataset created using Modified DEE plus gazettes (our project)
 
 If you want to create model using these dataset, you should follow these step:
-1. Download Stanford NER ((https://nlp.stanford.edu/software/CRF-NER.shtml))
+1. Download Stanford NER (https://nlp.stanford.edu/software/CRF-NER.shtml)
 2. Download the dataset and its properties file (file with .prop extension)
-3. Use Stanford NER classifier to create the model. 
-   For example:
+3. Use Stanford NER classifier to create the model. <br>
+   For example: <br>
       java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop 15000-mdee.prop 
     
    Let say this step will create a NER model file named "idner-model-15000-mdee.ser.gz"
  
 4. Create or use a testing dataset, lets say the file name is "testing.txt"
-5. Evaluate the NER model using Stanford NER library
-   For example:
+5. Evaluate the NER model using Stanford NER library <br>
+   For example:<br>
         java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier idner-model-15000-mdee.ser.gz -testFile testing.txt 
    
 
