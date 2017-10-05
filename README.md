@@ -10,7 +10,7 @@ The dataset may be used for free, but if you want to publish paper/publication u
 <b>Ika Alfina, Septiviana Savitri, and Mohamad Ivan Fanany, <i>"Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset"</i>, in Proceeding of International Conference on Advanced Computer Science and Information Systems (ICACSIS) 2017 in Bali, Indonesia (accepted).</b>
 
 <br>We provide three versions of NER dataset as we explained on the paper:
-1. dataset created using original DEE method, file name: 20k-dee.txt, with properties file: 20k-dee.prop
+1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
 2. dataset created using Modified DEE (our project), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
 3. dataset created using Modified DEE plus gazettes (our project), file name: 20k-mdee-gazz.txt, with properties file: 20k-mdee-gazz.prop
 <br>
