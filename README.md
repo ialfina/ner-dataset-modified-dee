@@ -7,7 +7,7 @@ The dataset conforms with dataset format of Stanford-NER (https://nlp.stanford.e
 
 The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite this publication: <br>
 
-<b>Ika Alfina, Septiviana Savitri, and Mohamad Ivan Fanany, <i>"Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset"</i>, in Proceeding of International Conference on Advanced Computer Science and Information Systems (ICACSIS) 2017 in Bali, Indonesia (accepted).</b>
+<b>Ika Alfina, Septiviana Savitri, and Mohamad Ivan Fanany, <i>"Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset"</i>, in Proceeding of 9th International Conference on Advanced Computer Science and Information Systems 2017. ICACSIS 2017. (accepted).</b>
 
 <br>We provide three versions of NER dataset as we explained on the paper:
 1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
