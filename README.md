@@ -4,11 +4,18 @@
 <i>(Dataset untuk Membangun Named Entity Recognizer (NER) untuk Bahasa Indonesia)</i> <br>
 
 The dataset conforms with dataset format of Stanford-NER (https://nlp.stanford.edu/software/CRF-NER.shtml) <br>
+Four classes are used:
+- PERSON for person names
+- PLACE for place names
+- ORG for organizaion names
+- Other
 
 The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite this publication: <br>
 
-<b>Ika Alfina, Septiviana Savitri, and Mohamad Ivan Fanany, <i>"Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset"</i>, in Proceeding of 9th International Conference on Advanced Computer Science and Information Systems 2017. ICACSIS 2017. (accepted).</b>
+<b>Ika Alfina, Septiviana Savitri, and Mohamad Ivan Fanany, <i>"Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset"</i>, in Proceeding of 9th International Conference on Advanced Computer Science and Information Systems 2017. ICACSIS 2017. (accepted).</b><br>
 
+https://www.researchgate.net/publication/320131070_Modified_DBpedia_Entities_Expansion_for_Tagging_Automatically_NER_Dataset
+<br>
 <br>We provide three versions of NER dataset as we explained on the paper:
 1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
 2. dataset created using Modified DEE (our project), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
