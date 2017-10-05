@@ -31,11 +31,11 @@ The steps to create NER model using Stanford NER library are as follows:
       
       java -Xmx1024m -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop 20k-mdee.prop <br>
       
-      if this still doesn't work increase the number, for example: "-Xmx8000m". This works for me :)
+      if this still doesn't work, increase the number. For example: "-Xmx8000m". This works for me :)
 
    Let say this step will create a NER model file named "idner-model-20k-mdee.ser.gz"
  
-4. Create or use a testing dataset, lets say the file name is "testing.txt"
+4. Create or use a testing dataset. Lets say the file name is "testing.txt"
 5. Evaluate the NER model using Stanford NER library <br>
    For example:<br>
         java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier idner-model-20k-mdee.ser.gz -testFile testing.txt 
