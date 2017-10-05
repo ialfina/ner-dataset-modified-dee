@@ -14,7 +14,9 @@ The dataset may be used for free, but if you want to publish paper/publication u
 2. dataset created using Modified DEE (our project), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
 3. dataset created using Modified DEE plus gazettes (our project), file name: 20k-mdee-gazz.txt, with properties file: 20k-mdee-gazz.prop
 <br>
-Each version of dataset consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>,br>
+Each version of dataset consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
+<br>
+
 <b>How to create NER model using the dataset?</b><br>
 
 You can use many methods to create NER model. One of them is using Stanford NER library.<br>
@@ -25,9 +27,11 @@ The steps to create NER model using Stanford NER library are as follows:
    For example: <br>
       java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop 20k-mdee.prop <br>
       
-      I recommend to increase heap size so you can train the dataset on computer with limited RAM:<br>
+      I recommend to increase heap size so you can train the dataset on computer with limited RAM. Add option like "-Xmx1024m" on the command, for example:<br>
       
-      java -Xmx1024m-cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop 20k-mdee.prop <br>
+      java -Xmx1024m -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop 20k-mdee.prop <br>
+      
+      if this still doesn't work increase the number, for example: "-Xmx8000m". This works for me :)
 
    Let say this step will create a NER model file named "idner-model-20k-mdee.ser.gz"
  
