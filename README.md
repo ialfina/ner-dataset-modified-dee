@@ -10,7 +10,6 @@ Four classes are used:
 - ORG for organizaion names
 - Other
 
-<br>
 <br>We provide three versions of NER dataset as we explained on the paper:
 <br>1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
 <br>2. dataset created using Modified DEE (our project), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
@@ -19,7 +18,7 @@ Four classes are used:
 Each version of dataset consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
 <br>
 
-<b> How to cite this works</b>
+<b> How to cite this works</b><br>
 The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite this publications: <br>
 
 - The DEE corpus: 
@@ -36,7 +35,7 @@ The dataset may be used for free, but if you want to publish paper/publication u
 
 You can use many methods to create NER model. One of them is using Stanford NER library.<br>
 The steps to create NER model using Stanford NER library are as follows:
-1. Download Stanford NER (https://nlp.stanford.edu/software/CRF-NER.shtml)
+1. Download <a href="https://nlp.stanford.edu/software/CRF-NER.shtml">Stanford NER</a>
 2. Download the dataset and its properties file (file with .prop extension)
 3. Use Stanford NER classifier to create the model. <br>
    For example: <br>
