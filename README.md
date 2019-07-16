@@ -10,17 +10,17 @@ Four classes are used:
 - ORG for organizaion names
 - Other
 
-
 <br>
 <br>We provide three versions of NER dataset as we explained on the paper:
-1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
-2. dataset created using Modified DEE (our project), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
-3. dataset created using Modified DEE plus gazettes (our project), file name: 20k-mdee-gazz.txt, with properties file: 20k-mdee-gazz.prop
+<br>1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
+<br>2. dataset created using Modified DEE (our project), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
+<br>3. dataset created using Modified DEE plus gazettes (our project), file name: 20k-mdee-gazz.txt, with properties file: 20k-mdee-gazz.prop
 <br>
 Each version of dataset consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
 <br>
 
-The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite this publication: <br>
+<b> How to cite this works</b>
+The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite this publications: <br>
 
 - The DEE corpus: 
 
