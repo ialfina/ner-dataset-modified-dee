@@ -3,18 +3,14 @@
 <br>
 <i>(Dataset untuk Membangun Named Entity Recognizer (NER) untuk Bahasa Indonesia)</i> <br>
 
-The dataset conforms with dataset format of Stanford-NER (https://nlp.stanford.edu/software/CRF-NER.shtml) <br>
+The dataset conforms with dataset format of <a href="https://nlp.stanford.edu/software/CRF-NER.shtml">Stanford-NER</a> <br>
 Four classes are used:
 - PERSON for person names
 - PLACE for place names
 - ORG for organizaion names
 - Other
 
-The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite this publication: <br>
 
-<b>Ika Alfina, Septiviana Savitri, and Mohamad Ivan Fanany, <i>"Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset"</i>, in Proceeding of 9th International Conference on Advanced Computer Science and Information Systems 2017. ICACSIS 2017.</b><br>
-
-https://www.researchgate.net/publication/320131070_Modified_DBpedia_Entities_Expansion_for_Tagging_Automatically_NER_Dataset
 <br>
 <br>We provide three versions of NER dataset as we explained on the paper:
 1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
@@ -23,6 +19,18 @@ https://www.researchgate.net/publication/320131070_Modified_DBpedia_Entities_Exp
 <br>
 Each version of dataset consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
 <br>
+
+The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite this publication: <br>
+
+- The DEE corpus: 
+
+<a href="https://www.researchgate.net/publication/308788318_DBpedia_Entities_Expansion_in_Automatically_Building_Dataset_for_Indonesian_NER">Ika Alfina, Ruli Manurung, and Mohamad Ivan Fanany, <i>"DBpedia Entities Expansion in Automatically Building Dataset for Indonesian NER"</i>, in Proceeding of 8th International Conference on Advanced Computer Science and Information Systems 2016 (ICACSIS 2016).</a><br>
+
+- The MDEE corpus:
+
+<a href="https://www.researchgate.net/publication/320131070_Modified_DBpedia_Entities_Expansion_for_Tagging_Automatically_NER_Dataset">Ika Alfina, Septiviana Savitri, and Mohamad Ivan Fanany, <i>"Modified DBpedia Entities Expansion for Tagging Automatically NER Dataset"</i>, in Proceeding of 9th International Conference on Advanced Computer Science and Information Systems 2017 (ICACSIS 2017).</a><br>
+
+
 
 <b>How to create NER model using the dataset?</b><br>
 
