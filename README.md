@@ -1,7 +1,6 @@
-# ner-dataset-modified-dee
-<b>Dataset to be used in Building the Indonesian NER</b>
-<br>
-<i>(Dataset untuk Membangun Named Entity Recognizer (NER) untuk Bahasa Indonesia)</i> <br>
+# Dataset for Building the Indonesian NER
+
+<b>(Dataset untuk Membangun Named Entity Recognizer (NER) untuk Bahasa Indonesia)</b> <br>
 
 The dataset conforms with the dataset format of <a href="https://nlp.stanford.edu/software/CRF-NER.shtml">Stanford-NER</a> <br>
 Four named entity classes are used:
