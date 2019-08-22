@@ -7,12 +7,12 @@ This repository contains resources of a project named Modified DBpedia Entities 
 - Three versions of DBpedia explained in the paper (in "expanded-dbpedia" folder): DEE, MDEE, and MDEE_Gazet
 - A dataset of 48,957 sentences named SINGGALANG (in "singgalang" folder). We used expanded DBpedia of MDEE_Gazetteer to label this dataset. 
 
-<b> The NER corpus</b><br>
-The dataset conforms with the dataset format of <a href="https://nlp.stanford.edu/software/CRF-NER.shtml">Stanford-NER</a> <br>
+<b> The NER Datasets</b><br>
+The datasets conforms with the dataset format of <a href="https://nlp.stanford.edu/software/CRF-NER.shtml">Stanford-NER</a> <br>
 Four named entity classes are used:
 - "Person" for person names
 - "Place" for place names
-- "Organization" for organization names
+- "Organisation" for organization names
 - "O" for others
 
 <br>List of dataset in main folder:
