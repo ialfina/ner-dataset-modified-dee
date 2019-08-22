@@ -21,17 +21,16 @@ Four named entity classes are used:
 <br>3. dataset created using Modified DEE plus gazetteer (Alfina et al., 2017), file name: 20k-mdee-gazz.txt, with properties file: 20k-mdee-gazz.prop
 <br>4. A gold standard created by Luthfi, et al (2014)
 <br>
-Each version of NER dataset consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
+Each version of NER datasets consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
 <br>
 
 <i>Note:
-Recently, we found out that we forgot to separate sentences with a blank line in those three dataset. We'll upload the revised corpus soon. </i>
+Recently, we found out that we forgot to separate sentences with a blank line in those three datasets. We'll upload the revised corpus soon. </i>
 
-<b> SINGGALANG corpus</b><br>
-We provide new NER corpus in this repository, named SINGGALANG. The specifications of this corpus are:
+<b> The SINGGALANG dataset</b><br>
+We provide a new NER dataset in this repository, named SINGGALANG. The specifications of this dataset are:
 - The number of sentences: 48,957 
-- Generated using expanded DBpedia of MDEE_Gazett (the best version of those three)
-- The sentences are tokenized using DocumentPreprocessor of Stanford CoreNLP, instead of PTBTokenizer, so that we can preserve the sentences.
+- Generated using expanded DBpedia of MDEE_Gazett (the best version of those three expanded DBpedia)
 
 <b> How to cite these works</b><br>
 The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite these publications: <br>
