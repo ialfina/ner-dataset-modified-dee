@@ -1,14 +1,11 @@
-Dataset NER "SINGGALANG"
-=======================
+"SINGGALANG": an Indonesian NER dataset
+=======================================
 
-Folder ini berisi sebuah dataset yang di-generate menggunakan program MDEE yang dibahas di paper MDEE (Alfina et al, 2017).
-Dataset ini terdiri dari 48.957 kalimat, yang sudah di-tokenize dengan menggunakan tool tokenizer dari Stanford Core NLP. 
-Pada dataset ini antar-kalimat sudah dipisahkan dengan blank line.
-Versi dppedia yang digunakan untuk men-generate label NER adalah versi MDEE_Gazette.
+This dataset was generated automatically using method explained in Alfina et al. (2017), especially it used expanded DBpedia of MDEE_Gazetteer.
+It contains 48,957 sentences.
 
-Dataset ini dimanakan SINGGALANG, nama sebuah gunung di Sumatera Barat, karena ukurannya yang lumayan besar.
+The dataset was named SINGGALANG, a name of a mountain in West Sumatera, Indonesia.
 
-Silakan digunakan. 
-Mohon sitasi paper MDEE jika Anda menggunakan dataset ini untuk publikasi penelitian Anda.
+Please cite our paper (Alfina et al, 2017) if you use this dataset for your publication.
 
-Terima kasih.
+Note: It will require huge resources to train NER model using this dataset ;-)
