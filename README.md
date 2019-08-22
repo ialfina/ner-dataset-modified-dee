@@ -4,7 +4,7 @@
 
 This repository contains resources of a project named Modified DBpedia Entities Expansion (MDEE) (Alfina, et al., 2017). We share:
 - Three NER datasets used in the experiments explained in the paper (in the main folder), each consists of 20,000 sentences, along with the gold standard.
-- Three versions of DBpedia explained in the paper (in "expanded-dbpedia" folder): DEE, MDEE, and MDEE_Gazet
+- Two versions of DBpedia explained in the paper (in "expanded-dbpedia" folder): MDEE, and MDEE_Gazet
 - A dataset of 48,957 sentences named SINGGALANG (in "singgalang" folder). We used expanded DBpedia of MDEE_Gazetteer to label this dataset. 
 
 <b> The NER Datasets</b><br>
