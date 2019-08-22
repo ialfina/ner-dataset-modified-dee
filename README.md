@@ -1,7 +1,13 @@
-# Dataset for Building the Indonesian NER
+# Datasets for Building the Indonesian NER
 
 <b>(Dataset untuk Membangun Named Entity Recognizer (NER) untuk Bahasa Indonesia)</b> <br>
 
+This repository contains resources of a project named Modified DBpedia Entities Expansion (MDEE) (Alfina, et al., 2017). We share:
+- Three set of NER datasets used in the experiment explained in the paper (in the main folder), each consists of 20,000 sentences, along with the gold standard.
+- Three version of DBpedia explained in the paper (in folder expanded-dbpedia): DEE, MDEE, and MDEE_Gazet
+- A dataset of 48,957 sentences named SINGGALANG, generated using the MDEE program.
+
+<b> The NER corpus</b><br>
 The dataset conforms with the dataset format of <a href="https://nlp.stanford.edu/software/CRF-NER.shtml">Stanford-NER</a> <br>
 Four named entity classes are used:
 - PERSON for person names
@@ -9,14 +15,23 @@ Four named entity classes are used:
 - ORG for organizaion names
 - Other
 
-<br>We provide three versions of NER dataset and one gold standard in this repository:
-<br>1. dataset created using original DEE (our previous project), file name: 20k-dee.txt, with properties file: 20k-dee.prop
-<br>2. dataset created using Modified DEE (our project), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
-<br>3. dataset created using Modified DEE plus gazettes (our project), file name: 20k-mdee-gazz.txt, with properties file: 20k-mdee-gazz.prop
+<br>List of dataset in main folder:
+<br>1. dataset created using original DEE (Alfina et al., 2016), file name: 20k-dee.txt, with properties file: 20k-dee.prop
+<br>2. dataset created using Modified DEE (Alfina et al., 2017), file name: 20k-mdee.txt, with properties file: 20k-mdee.prop
+<br>3. dataset created using Modified DEE plus gazetteer (Alfina et al., 2017), file name: 20k-mdee-gazz.txt, with properties file: 20k-mdee-gazz.prop
 <br>4. A gold standard created by Luthfi, et al (2014)
 <br>
 Each version of NER dataset consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
 <br>
+
+<i>Note:
+Recently, we found out that we forgot to separate sentences with a blank line in those three dataset. We'll upload the revised corpus soon. </i>
+
+<b> SINGGALANG corpus</b><br>
+We provide new NER corpus in this repository, named SINGGALANG. The specifications of this corpus are:
+- The number of sentences: 48,957 
+- Generated using expanded DBpedia of MDEE_Gazett (the best version of those three)
+- The sentences are tokenized using DocumentPreprocessor of Stanford CoreNLP, instead of PTBTokenizer, so that we can preserve the sentences.
 
 <b> How to cite these works</b><br>
 The dataset may be used for free, but if you want to publish paper/publication using the dataset, please cite these publications: <br>
@@ -36,7 +51,7 @@ The dataset may be used for free, but if you want to publish paper/publication u
 
 <b>How to create NER model using the dataset?</b><br>
 
-You can use many methods to create NER model. One of them is by using the Stanford NER library.<br>
+We suggest you to use the Stanford NER library.<br>
 The steps to create NER model using Stanford NER library are as follows:
 1. Download <a href="https://nlp.stanford.edu/software/CRF-NER.shtml">Stanford NER</a>
 2. Download the dataset and its properties file (file with .prop extension)
@@ -57,4 +72,4 @@ The steps to create NER model using Stanford NER library are as follows:
    For example:<br>
         java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier idner-model-20k-mdee.ser.gz -testFile testing.txt 
    
-Good Luck :)
+
