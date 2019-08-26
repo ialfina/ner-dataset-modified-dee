@@ -4,6 +4,7 @@
 
 This repository contains resources of a project named Modified DBpedia Entities Expansion (MDEE) (Alfina, et al., 2017). We share:
 - Three NER datasets used in the experiments explained in the paper (in the main folder), each consists of 20,000 sentences, along with the gold standard.
+- Three NER datasets, as the revised version of the three NER datasets in the main folder (in the revised-20k folder).
 - The original names in Indonesian DBpedia (in "original-dbpedia" folder).
 - Two versions of DBpedia explained in the paper (in "expanded-dbpedia" folder): MDEE, and MDEE_Gazetteer
 - A dataset of 48,957 sentences named SINGGALANG (in "singgalang" folder). We used expanded DBpedia of MDEE_Gazetteer to label this dataset. 
@@ -24,9 +25,6 @@ Four named entity classes are used:
 <br>
 Each version of NER datasets consist of 20,000 sentences from Wikipedia articles in the Indonesian language that were labeled automatically. <br>
 <br>
-
-<i>Note:
-Recently, we found out that we forgot to separate sentences with a blank line in those three datasets. We'll upload the revised corpus soon. </i>
 
 <b> The SINGGALANG dataset</b><br>
 We provide a new NER dataset in this repository, named SINGGALANG. The specifications of this dataset are:
